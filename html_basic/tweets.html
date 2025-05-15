@@ -2,20 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My cool First Webpage</title>
+    <title>My Tweets Page</title>
 </head>
 <body>
-    <h1>My Tweets Page</h1>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">I’m learning to build websites from scratch using HTML! Thank you @HolbertonSchool 🙌 #WebDev</p>
-        &mdash; Example Tweet (@exampleuser) 
-        <a href="https://twitter.com/exampleuser/status/1234567890123456789?ref_src=twsrc%5Etfw">March 1, 2025</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Navigation Header -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Link to homepage -->
-    <p><a href="index.html">← Back to Homepage</a></p>
+    <main>
+        <article>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Learning web development is awesome! 🚀 #HTML #CSS #Developer</p>
+                &mdash; YourName (@YourTwitterHandle) 
+                <a href="https://twitter.com/YourTwitterHandle/status/123456789">March 1, 2025</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Gedeon Ntigibeshya - <a href="https://www.linkedin.com/in/ntigibeshya-gedeon-24402a355/" target="_blank">here</a>.</p>
+    </footer>
+
 </body>
 </html>
